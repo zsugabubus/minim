@@ -1,0 +1,2 @@
+#!/bin/sh -xeu
+install -D minim.lua ${DESTDIR:-}${PREFIX:-/usr/local}/${BIN_DIR:-bin}/minim
